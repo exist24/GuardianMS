@@ -1,0 +1,17 @@
+01:10:38.555 [main] INFO  server.Server - Cosmic v83 starting up.
+01:10:38.641 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+01:10:38.646 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+01:10:39.067 [main] INFO  pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ec0c838
+01:10:39.068 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:10:39.142 [main] INFO  tools.DatabaseConnection - Connection pool initialized in 499 ms
+01:10:40.246 [main] INFO  server.Server - Starting world 0
+01:10:41.716 [main] INFO  channel.Channel - Channel 1: Listening on port 7575
+01:10:41.784 [main] INFO  channel.Channel - Channel 2: Listening on port 7576
+01:10:41.844 [main] INFO  channel.Channel - Channel 3: Listening on port 7577
+01:10:41.866 [main] INFO  server.Server - Finished loading world 0
+01:10:41.923 [main] INFO  server.Server - Listening on port 8484
+01:10:41.923 [main] INFO  server.Server - Cosmic is now online after 3378 ms.
+17:22:15.180 [nioEventLoopGroup-9-1] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.34.157.114 
+17:23:52.528 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 25.34.157.114
+17:27:38.967 [TimerManager-Worker-2] DEBUG client.Character - Attempting to save chr KING
+17:27:39.174 [nioEventLoopGroup-5-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 2 from 25.34.157.114

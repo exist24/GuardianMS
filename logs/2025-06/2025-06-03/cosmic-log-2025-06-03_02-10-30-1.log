@@ -1,0 +1,156 @@
+02:10:31.068 [main] INFO  server.Server - Cosmic v83 starting up.
+02:10:31.142 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+02:10:31.147 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+02:10:31.515 [main] INFO  pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e46d9f4
+02:10:31.516 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:10:31.588 [main] INFO  tools.DatabaseConnection - Connection pool initialized in 444 ms
+02:10:32.418 [main] INFO  server.Server - Starting world 0
+02:10:33.647 [main] INFO  channel.Channel - Channel 1: Listening on port 7575
+02:10:33.701 [main] INFO  channel.Channel - Channel 2: Listening on port 7576
+02:10:33.752 [main] INFO  channel.Channel - Channel 3: Listening on port 7577
+02:10:33.770 [main] INFO  server.Server - Finished loading world 0
+02:10:33.815 [main] INFO  server.Server - Listening on port 8484
+02:10:33.815 [main] INFO  server.Server - Cosmic is now online after 2757 ms.
+18:11:09.478 [nioEventLoopGroup-9-1] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+18:11:45.726 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+18:11:50.705 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+18:12:11.101 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+18:12:25.344 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command PianusCommand
+18:14:10.910 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+18:14:46.380 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+18:15:46.657 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command LevelCommand
+18:16:09.186 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+18:16:47.822 [TimerManager-Worker-3] DEBUG client.Character - Attempting to save chr exist
+18:17:37.239 [nioEventLoopGroup-3-1] DEBUG handlers.CashOperationHandler - Chr exist bought cash item Special Royal Hair Coupon (SN 50000283) for 11000
+18:17:40.252 [nioEventLoopGroup-3-2] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+18:17:43.488 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+18:17:49.520 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+18:18:56.786 [nioEventLoopGroup-3-2] WARN  client.Client - Error in packet handler GeneralChatHandler. Chr exist on map 100000104, account admin. Packet: ByteBufInPacket[31001200406974656D2065717020766F6E206C656F6E_00]
+java.lang.NumberFormatException: For input string: "eqp"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at client.command.commands.gm2.ItemCommand.execute(ItemCommand.java:51) ~[classes/:?]
+	at client.command.CommandsExecutor.handleInternal(CommandsExecutor.java:290) ~[classes/:?]
+	at client.command.CommandsExecutor.handle(CommandsExecutor.java:250) ~[classes/:?]
+	at net.server.channel.handlers.GeneralChatHandler.handlePacket(GeneralChatHandler.java:54) ~[classes/:?]
+	at client.Client.channelRead(Client.java:221) [classes/:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) [netty-handler-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1589) [?:?]
+18:19:12.854 [nioEventLoopGroup-3-2] WARN  client.Client - Error in packet handler GeneralChatHandler. Chr exist on map 100000104, account admin. Packet: ByteBufInPacket[31000B00406974656D206571702076_00]
+java.lang.NumberFormatException: For input string: "eqp"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at client.command.commands.gm2.ItemCommand.execute(ItemCommand.java:51) ~[classes/:?]
+	at client.command.CommandsExecutor.handleInternal(CommandsExecutor.java:290) ~[classes/:?]
+	at client.command.CommandsExecutor.handle(CommandsExecutor.java:250) ~[classes/:?]
+	at net.server.channel.handlers.GeneralChatHandler.handlePacket(GeneralChatHandler.java:54) ~[classes/:?]
+	at client.Client.channelRead(Client.java:221) [classes/:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) [netty-handler-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1589) [?:?]
+18:19:23.145 [nioEventLoopGroup-3-2] WARN  client.Client - Error in packet handler GeneralChatHandler. Chr exist on map 100000104, account admin. Packet: ByteBufInPacket[31001400406974656D20657175697020766F6E206C656F6E_00]
+java.lang.NumberFormatException: For input string: "equip"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at client.command.commands.gm2.ItemCommand.execute(ItemCommand.java:51) ~[classes/:?]
+	at client.command.CommandsExecutor.handleInternal(CommandsExecutor.java:290) ~[classes/:?]
+	at client.command.CommandsExecutor.handle(CommandsExecutor.java:250) ~[classes/:?]
+	at net.server.channel.handlers.GeneralChatHandler.handlePacket(GeneralChatHandler.java:54) ~[classes/:?]
+	at client.Client.channelRead(Client.java:221) [classes/:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) [netty-handler-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1589) [?:?]
+18:19:42.822 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+18:21:37.960 [nioEventLoopGroup-9-2] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+18:21:37.965 [pool-3-thread-11] DEBUG client.Character - Attempting to save chr exist
+18:28:46.641 [nioEventLoopGroup-9-3] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+18:30:06.909 [nioEventLoopGroup-9-3] INFO  creator.CharacterFactory - Account exist created chr with name Noob
+18:30:11.907 [nioEventLoopGroup-3-3] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+18:30:17.112 [nioEventLoopGroup-3-3] INFO  command.CommandsExecutor - Chr Noob used command HelpCommand
+18:30:47.690 [pool-3-thread-5] DEBUG client.Character - Attempting to save chr Noob
+18:30:47.691 [nioEventLoopGroup-9-4] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+18:31:06.045 [Thread-0] INFO  server.Server - Shutting down the server!
+18:31:06.046 [Thread-0] INFO  channel.Channel - Shutting down channel 1 in world 0
+18:31:06.055 [Thread-0] INFO  channel.Channel - Successfully shut down channel 1 in world 0
+18:31:06.055 [Thread-0] INFO  channel.Channel - Shutting down channel 2 in world 0
+18:31:06.061 [Thread-0] INFO  channel.Channel - Successfully shut down channel 2 in world 0
+18:31:06.061 [Thread-0] INFO  channel.Channel - Shutting down channel 3 in world 0
+18:31:06.066 [Thread-0] INFO  channel.Channel - Successfully shut down channel 3 in world 0
+18:31:06.066 [Thread-0] INFO  world.World - Finished shutting down world 0
+18:31:06.067 [Thread-0] INFO  server.Server - Worlds and channels are offline.

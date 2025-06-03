@@ -1,0 +1,117 @@
+23:18:57.933 [main] INFO  server.Server - Cosmic v83 starting up.
+23:18:58.013 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+23:18:58.016 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+23:18:58.316 [main] INFO  pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ec0c838
+23:18:58.317 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:18:58.382 [main] INFO  tools.DatabaseConnection - Connection pool initialized in 368 ms
+23:18:59.110 [main] INFO  server.Server - Starting world 0
+23:19:00.209 [main] INFO  channel.Channel - Channel 1: Listening on port 7575
+23:19:00.260 [main] INFO  channel.Channel - Channel 2: Listening on port 7576
+23:19:00.307 [main] INFO  channel.Channel - Channel 3: Listening on port 7577
+23:19:00.320 [main] INFO  server.Server - Finished loading world 0
+23:19:00.358 [main] INFO  server.Server - Listening on port 8484
+23:19:00.358 [main] INFO  server.Server - Cosmic is now online after 2434 ms.
+15:22:02.859 [nioEventLoopGroup-9-1] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.30.171.118 
+15:22:27.247 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 25.30.171.118
+15:32:52.367 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command HelpCommand
+15:38:07.674 [TimerManager-Worker-2] DEBUG client.Character - Attempting to save chr Noob
+15:38:13.534 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+15:41:07.832 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+15:43:12.268 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+15:47:29.268 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+15:51:38.429 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+15:51:53.028 [nioEventLoopGroup-9-2] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.30.171.118 
+15:52:28.705 [nioEventLoopGroup-3-2] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 25.30.171.118
+15:52:47.964 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+15:53:10.011 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+15:53:45.612 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+15:55:27.028 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:55:35.165 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+15:55:39.551 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+15:56:04.962 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:11.082 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:14.246 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:17.029 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:24.277 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:35.058 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:43.970 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HairCommand
+15:56:57.389 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+15:57:05.913 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ExpRateCommand
+15:57:10.900 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ExpRateCommand
+15:57:26.665 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ExpRateCommand
+15:57:43.456 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ExpRateCommand
+15:58:39.395 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ExpRateCommand
+15:59:04.668 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+15:59:17.630 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ReachCommand
+15:59:22.436 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+15:59:34.364 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+15:59:46.952 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+15:59:59.056 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:00:58.899 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+16:01:18.535 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:01:30.638 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:06:45.585 [TimerManager-Worker-1] DEBUG client.Character - Attempting to save chr Noob
+16:07:07.276 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+16:09:20.304 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+16:09:46.459 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:11:45.391 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:11:58.736 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+16:12:25.738 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+16:14:10.097 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:15:54.812 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+16:18:59.300 [TimerManager-Worker-3] DEBUG client.Character - Attempting to autosave chr Noob
+16:18:59.353 [TimerManager-Worker-3] DEBUG client.Character - Attempting to autosave chr exist
+16:19:01.072 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:21:49.855 [nioEventLoopGroup-9-3] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.34.157.114 
+16:22:00.185 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ZakumCommand
+16:22:03.484 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:22:06.873 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:22:09.186 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:22:19.473 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:22:52.646 [nioEventLoopGroup-9-4] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.34.157.114 
+16:23:22.997 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:23:39.993 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+16:24:16.012 [nioEventLoopGroup-9-4] INFO  creator.CharacterFactory - Account anyhowtype created chr with name KING
+16:24:19.394 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:24:25.181 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command KillAllCommand
+16:24:30.128 [nioEventLoopGroup-3-3] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 25.34.157.114
+16:25:21.627 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ReachCommand
+16:25:42.338 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ReachCommand
+16:25:59.563 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:29:00.021 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:31:18.426 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:31:41.955 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:31:50.944 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+16:33:56.821 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command JobCommand
+16:34:01.521 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command JobCommand
+16:34:50.503 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command JobCommand
+16:34:50.908 [TimerManager-Worker-3] DEBUG client.Character - Attempting to save chr Noob
+16:37:39.723 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+16:38:39.436 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:40:44.206 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:50:07.702 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:50:11.066 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:50:21.935 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+16:50:27.184 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+16:50:31.760 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SummonCommand
+16:53:07.497 [nioEventLoopGroup-3-1] INFO  autoban.AutobanFactory - Autoban alert - chr Noob caused DISTANCE_HACK-Distance Sq to monster: 201125.0 SID: 5111006 MID: 8140002
+16:54:57.661 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr Noob used command StatStrCommand
+16:56:27.010 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+16:56:37.372 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:56:42.039 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:56:46.480 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+16:58:22.933 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+17:03:55.922 [nioEventLoopGroup-9-5] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.30.171.118 
+17:03:55.934 [pool-3-thread-16] DEBUG client.Character - Attempting to save chr Noob
+17:04:00.626 [pool-3-thread-12] DEBUG client.Character - Attempting to save chr exist
+17:04:00.629 [nioEventLoopGroup-9-6] DEBUG netty.LoginServerInitializer - Client connected to login server from 25.30.171.118 
+17:04:08.836 [Thread-0] INFO  server.Server - Shutting down the server!
+17:04:08.837 [Thread-0] INFO  channel.Channel - Shutting down channel 1 in world 0
+17:04:08.837 [Thread-0] DEBUG client.Character - Attempting to save chr KING
+17:04:08.880 [Thread-0] INFO  channel.Channel - Successfully shut down channel 1 in world 0
+17:04:08.880 [Thread-0] INFO  channel.Channel - Shutting down channel 2 in world 0
+17:04:08.892 [Thread-0] INFO  channel.Channel - Successfully shut down channel 2 in world 0
+17:04:08.892 [Thread-0] INFO  channel.Channel - Shutting down channel 3 in world 0
+17:04:08.902 [Thread-0] INFO  channel.Channel - Successfully shut down channel 3 in world 0
+17:04:08.902 [Thread-0] INFO  world.World - Finished shutting down world 0
+17:04:08.904 [Thread-0] INFO  server.Server - Worlds and channels are offline.

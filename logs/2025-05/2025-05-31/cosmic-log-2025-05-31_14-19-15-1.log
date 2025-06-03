@@ -1,0 +1,4 @@
+14:19:16.035 [main] INFO  server.Server - Cosmic v83 starting up.
+14:19:16.124 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+14:19:16.127 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+14:20:33.807 [Thread-0] INFO  server.Server - Shutting down the server!

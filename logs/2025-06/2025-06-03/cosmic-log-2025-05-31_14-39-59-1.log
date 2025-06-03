@@ -1,0 +1,116 @@
+14:39:59.802 [main] INFO  server.Server - Cosmic v83 starting up.
+14:39:59.874 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+14:39:59.877 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+14:40:00.206 [main] INFO  pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ec0c838
+14:40:00.207 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:40:00.272 [main] INFO  tools.DatabaseConnection - Connection pool initialized in 397 ms
+14:40:01.047 [main] INFO  server.Server - Starting world 0
+14:40:02.227 [main] INFO  channel.Channel - Channel 1: Listening on port 7575
+14:40:02.277 [main] INFO  channel.Channel - Channel 2: Listening on port 7576
+14:40:02.326 [main] INFO  channel.Channel - Channel 3: Listening on port 7577
+14:40:02.343 [main] INFO  server.Server - Finished loading world 0
+14:40:02.382 [main] INFO  server.Server - Listening on port 8484
+14:40:02.382 [main] INFO  server.Server - Cosmic is now online after 2588 ms.
+06:40:06.935 [nioEventLoopGroup-9-1] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+06:40:12.190 [nioEventLoopGroup-9-2] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+06:40:27.324 [nioEventLoopGroup-9-3] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+06:41:48.779 [nioEventLoopGroup-9-4] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+06:42:21.074 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+06:44:05.810 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+06:46:16.156 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+06:47:56.375 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+06:48:33.293 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+06:50:55.267 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+06:51:06.003 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+06:51:13.086 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+06:51:14.890 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+06:52:48.649 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+06:57:23.548 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+06:57:43.746 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:00:35.017 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:00:50.757 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:01:12.935 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:04:00.660 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:04:48.071 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command LevelCommand
+07:04:53.678 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:04:59.911 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:05:22.718 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command LevelCommand
+07:05:50.869 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:05:57.717 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:06:58.691 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:07:12.529 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:07:15.937 [TimerManager-Worker-1] DEBUG client.Character - Attempting to save chr exist
+07:08:23.850 [nioEventLoopGroup-3-1] DEBUG handlers.CashOperationHandler - Chr exist bought cash item VIP Teleport Rock (SN 30000009) for 4500
+07:08:27.134 [nioEventLoopGroup-3-2] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+07:08:48.219 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+07:09:20.550 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:09:24.610 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:09:32.449 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:09:46.423 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:10:11.217 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+07:10:25.138 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+07:10:31.256 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:10:51.614 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+07:11:32.926 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:12:18.317 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:12:33.985 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+07:13:24.196 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:13:42.743 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:15:16.713 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+07:15:20.076 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command WarpCommand
+07:15:55.521 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:16:52.099 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:17:01.601 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:17:03.566 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:17:17.708 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:17:25.042 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command SpCommand
+07:17:37.779 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command LevelCommand
+07:17:51.217 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:17:58.677 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:18:44.256 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command IdCommand
+07:18:56.839 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ItemCommand
+07:21:52.943 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+07:22:32.340 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+07:23:20.862 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+07:23:40.713 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+07:24:14.581 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command ZakumCommand
+07:25:21.951 [nioEventLoopGroup-3-2] INFO  autoban.AutobanFactory - Autoban alert - chr exist caused DISTANCE_HACK-Distance Sq to monster: 264050.0 SID: 0 MID: 8800008
+07:25:27.355 [nioEventLoopGroup-3-2] INFO  autoban.AutobanFactory - Autoban alert - chr exist caused DISTANCE_HACK-Distance Sq to monster: 214660.0 SID: 0 MID: 8800008
+07:32:21.495 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command MaxStatCommand
+07:33:09.862 [nioEventLoopGroup-3-2] INFO  autoban.AutobanFactory - Autoban alert - chr exist caused DAMAGE_HACK-DMG: 321001 MaxDMG: 213700 SID: 0 MobID: 8800001 Map: Henesys (100000000)
+07:33:13.883 [nioEventLoopGroup-3-2] INFO  autoban.AutobanFactory - Autoban alert - chr exist caused DAMAGE_HACK-DMG: 330747 MaxDMG: 213700 SID: 0 MobID: 8800001 Map: Henesys (100000000)
+07:33:17.491 [nioEventLoopGroup-3-2] INFO  autoban.AutobanFactory - Autoban alert - chr exist caused DAMAGE_HACK-DMG: 336668 MaxDMG: 213700 SID: 0 MobID: 8800001 Map: Henesys (100000000)
+07:33:33.017 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+07:34:56.431 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+07:34:59.991 [nioEventLoopGroup-3-2] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+07:35:55.539 [nioEventLoopGroup-3-2] WARN  client.Client - Exception caught by exist
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1589) [?:?]
+07:35:55.549 [pool-3-thread-18] DEBUG client.Character - Attempting to save chr exist
+07:36:00.924 [nioEventLoopGroup-9-5] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+07:36:04.784 [nioEventLoopGroup-9-6] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+07:36:33.635 [nioEventLoopGroup-3-3] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+07:36:39.301 [nioEventLoopGroup-3-3] INFO  command.CommandsExecutor - Chr exist used command UnHideCommand
+07:38:54.669 [pool-3-thread-5] DEBUG client.Character - Attempting to save chr exist
+07:39:33.699 [Thread-0] INFO  server.Server - Shutting down the server!
+07:39:33.699 [Thread-0] INFO  channel.Channel - Shutting down channel 1 in world 0
+07:39:33.703 [Thread-0] INFO  channel.Channel - Successfully shut down channel 1 in world 0
+07:39:33.703 [Thread-0] INFO  channel.Channel - Shutting down channel 2 in world 0
+07:39:33.717 [Thread-0] INFO  channel.Channel - Successfully shut down channel 2 in world 0
+07:39:33.717 [Thread-0] INFO  channel.Channel - Shutting down channel 3 in world 0
+07:39:33.724 [Thread-0] INFO  channel.Channel - Successfully shut down channel 3 in world 0
+07:39:33.724 [Thread-0] INFO  world.World - Finished shutting down world 0
+07:39:33.731 [Thread-0] INFO  server.Server - Worlds and channels are offline.

@@ -1,0 +1,86 @@
+22:00:56.131 [main] INFO  server.Server - Cosmic v83 starting up.
+22:00:56.208 [main] INFO  tools.DatabaseConnection - Initializing database connection pool. Connecting to:'jdbc:mysql://localhost:3306/cosmic' with user:'root'
+22:00:56.212 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Starting...
+22:00:56.510 [main] INFO  pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@389adf1d
+22:00:56.512 [main] INFO  hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:00:56.607 [main] INFO  tools.DatabaseConnection - Connection pool initialized in 399 ms
+22:00:57.330 [main] INFO  server.Server - Starting world 0
+22:00:58.612 [main] INFO  channel.Channel - Channel 1: Listening on port 7575
+22:00:58.664 [main] INFO  channel.Channel - Channel 2: Listening on port 7576
+22:00:58.735 [main] INFO  channel.Channel - Channel 3: Listening on port 7577
+22:00:58.751 [main] INFO  server.Server - Finished loading world 0
+22:00:58.798 [main] INFO  server.Server - Listening on port 8484
+22:00:58.799 [main] INFO  server.Server - Cosmic is now online after 2677 ms.
+14:01:06.960 [nioEventLoopGroup-9-1] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+14:01:52.386 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 127.0.0.1
+14:02:05.125 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HideCommand
+14:04:21.877 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:04:37.220 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:04:41.199 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:04:54.687 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GmShopCommand
+14:05:41.366 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+14:07:06.062 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command GotoCommand
+14:07:11.926 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:07:27.427 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command LevelCommand
+14:07:43.616 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command ApCommand
+14:07:52.076 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command StatLukCommand
+14:08:05.094 [nioEventLoopGroup-3-1] WARN  client.Client - Error in packet handler GeneralChatHandler. Chr exist on map 103000000, account admin. Packet: ByteBufInPacket[31001200406170206578697374206C756B2031303030_00]
+java.lang.NumberFormatException: For input string: "luk"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at client.command.commands.gm2.ApCommand.execute(ApCommand.java:56) ~[classes/:?]
+	at client.command.CommandsExecutor.handleInternal(CommandsExecutor.java:290) ~[classes/:?]
+	at client.command.CommandsExecutor.handle(CommandsExecutor.java:250) ~[classes/:?]
+	at net.server.channel.handlers.GeneralChatHandler.handlePacket(GeneralChatHandler.java:54) ~[classes/:?]
+	at client.Client.channelRead(Client.java:221) [classes/:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) [netty-handler-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.109.Final.jar:4.1.109.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1589) [?:?]
+14:08:21.508 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:08:35.935 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command MaxStatCommand
+14:08:55.827 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:09:07.436 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command JobCommand
+14:09:21.095 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command HelpCommand
+14:09:44.210 [nioEventLoopGroup-3-1] INFO  command.CommandsExecutor - Chr exist used command MaxStatCommand
+15:00:57.506 [TimerManager-Worker-4] DEBUG client.Character - Attempting to autosave chr exist
+16:00:57.497 [TimerManager-Worker-3] DEBUG client.Character - Attempting to autosave chr exist
+16:20:42.750 [nioEventLoopGroup-3-1] INFO  autoban.AutobanManager - Autoban - chr exist caused FAST_MP_HEALING Fast mp healing
+16:20:44.519 [nioEventLoopGroup-3-1] INFO  autoban.AutobanManager - Autoban - chr exist caused FAST_HP_HEALING Fast hp healing
+17:00:42.165 [TimerManager-Worker-4] DEBUG client.Character - Attempting to autosave chr exist
+18:00:42.159 [TimerManager-Worker-1] DEBUG client.Character - Attempting to autosave chr exist
+18:27:07.073 [nioEventLoopGroup-9-2] DEBUG netty.LoginServerInitializer - Client connected to login server from 127.0.0.1 
+18:27:07.076 [pool-3-thread-10] DEBUG client.Character - Attempting to save chr exist
+18:27:12.012 [Thread-0] INFO  server.Server - Shutting down the server!
+18:27:12.012 [Thread-0] INFO  channel.Channel - Shutting down channel 1 in world 0
+18:27:12.020 [Thread-0] INFO  channel.Channel - Successfully shut down channel 1 in world 0
+18:27:12.020 [Thread-0] INFO  channel.Channel - Shutting down channel 2 in world 0
+18:27:12.023 [Thread-0] INFO  channel.Channel - Successfully shut down channel 2 in world 0
+18:27:12.023 [Thread-0] INFO  channel.Channel - Shutting down channel 3 in world 0
+18:27:12.027 [Thread-0] INFO  channel.Channel - Successfully shut down channel 3 in world 0
+18:27:12.027 [Thread-0] INFO  world.World - Finished shutting down world 0
+18:27:12.028 [Thread-0] INFO  server.Server - Worlds and channels are offline.
