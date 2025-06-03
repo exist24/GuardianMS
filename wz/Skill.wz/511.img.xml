@@ -1565,13 +1565,13 @@
           <string name="hs" value="h20"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="60"/>
-          <int name="time" value="120"/>
+          <int name="time" value="9000"/>
           <int name="str" value="20"/>
           <int name="pdd" value="40"/>
           <int name="mdd" value="40"/>
           <int name="speed" value="40"/>
           <int name="jump" value="20"/>
-          <int name="cooltime" value="360"/>
+          <int name="cooltime" value="1"/>
         </imgdir>
       </imgdir>
     </imgdir>
