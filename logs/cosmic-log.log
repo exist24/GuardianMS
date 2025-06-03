@@ -15,3 +15,13 @@
 17:23:52.528 [nioEventLoopGroup-3-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 1 from 25.34.157.114
 17:27:38.967 [TimerManager-Worker-2] DEBUG client.Character - Attempting to save chr KING
 17:27:39.174 [nioEventLoopGroup-5-1] DEBUG netty.ChannelServerInitializer - Client connecting to world 0, channel 2 from 25.34.157.114
+17:55:27.034 [Thread-0] INFO  server.Server - Shutting down the server!
+17:55:27.034 [Thread-0] INFO  channel.Channel - Shutting down channel 1 in world 0
+17:55:27.132 [Thread-0] INFO  channel.Channel - Successfully shut down channel 1 in world 0
+17:55:27.132 [Thread-0] INFO  channel.Channel - Shutting down channel 2 in world 0
+17:55:27.145 [Thread-0] DEBUG client.Character - Attempting to save chr KING
+17:55:27.193 [Thread-0] INFO  channel.Channel - Successfully shut down channel 2 in world 0
+17:55:27.193 [Thread-0] INFO  channel.Channel - Shutting down channel 3 in world 0
+17:55:27.199 [Thread-0] INFO  channel.Channel - Successfully shut down channel 3 in world 0
+17:55:27.199 [Thread-0] INFO  world.World - Finished shutting down world 0
+17:55:27.200 [Thread-0] INFO  server.Server - Worlds and channels are offline.
