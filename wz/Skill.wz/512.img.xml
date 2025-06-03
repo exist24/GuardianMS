@@ -2129,7 +2129,7 @@
           <int name="mdd" value="60"/>
           <int name="speed" value="40"/>
           <int name="jump" value="20"/>
-          <int name="cooltime" value="1"/>
+          <int name="cooltime" value="240"/>
         </imgdir>
       </imgdir>
       <imgdir name="req">
